@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+
+  .container-boxfrase {
+    background   : #fff;
+    border-radius: 20px;
+    padding      : 30px;
+    max-width    : 300px;
+
+    #text {
+      margin-bottom: 0px;
+
+    }
+
+    #autor {
+      text-align: end;
+    }
+
+    .button {
+
+      border-radius: 5px;
+      font-family  : 'Roboto', sans-serif;
+      font-size    : 1rem;
+      color        : #ffffff;
+      border       : none;
+      background   : #101010;
+      float        : right;
+      height       : 30px;
+    }
+  }
+
+  .App-header {
+    background     : rgb(124, 57, 168);
+    background     : linear-gradient(90deg, rgba(124, 57, 168, 1) 18%, rgba(206, 29, 253, 1) 38%, rgba(252, 69, 84, 1) 69%);
+    min-height     : 100vh;
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+    font-size      : 2rem;
+    color          : #101010;
+  }
+
+}
